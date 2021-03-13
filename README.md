@@ -2,3 +2,4 @@
 
 [Chinese version](https://zoiiiiii.github.io/resume-templat)
 
+Password verification can be turned on
