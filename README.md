@@ -1,1 +1,4 @@
-# resume-template-en
+[Online preview](https://zoiiiiii.github.io/resume-template-en)
+
+[Chinese version](https://zoiiiiii.github.io/resume-templat)
+
