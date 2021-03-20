@@ -1,4 +1,4 @@
-#resume-template
+# resume-template
 
 [Online preview](https://zoiiiiii.github.io/resume-template)
 
