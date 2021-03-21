@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded", function () { document.getElementsByClassName("resume")[0].classList.add("fadeIn") })
+document.addEventListener("DOMContentLoaded",function(){document.getElementsByClassName("resume")[0].classList.add("fadeIn")});
