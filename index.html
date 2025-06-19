@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <!-- 是否开启简易密码，密码为0 -->
-    <!-- <scrip src="./js/password.js"> -->
-        </script>
+    <!-- <script src="./js/password.js"></script> -->
 </head>
 
 <body>
@@ -18,9 +17,10 @@
             <header class="info">
                 <div class="name">
                     <h1>周依然</h1>
-                    <span>女</span> ｜ <span>18岁</span> ｜ <span>本科</span>
-                    <p>已离职 ｜ 工作年限：8年</p>
-                    <a href="tel:18900000000"><i></i>189-0000-0000</a>
+                    <p></p>
+                    <p style="white-space: pre-wrap;">女 ｜ 18岁 ｜ 本科</p>
+                    <p style="white-space: pre-wrap;">6年工作经验   |   已离职</p>
+                    <a href="tel:18900000000"><i></i>189-5020-0000</a>
                     <a href="mailto:izoii@qq.com"><i></i>izoii@qq.com</a>
                 </div>
                 <img src="./img/idphoto.jpg" alt="" class="idphoto">
@@ -70,13 +70,13 @@
                     <b>岗位名称</b>
                     <span class="time">1970.1.1 - To Date</span>
                 </p>
-                <p>从事什么工作，工作内容是什么，达到什么业绩</p>
+                <p>从事什么工作</p>
                 <p>
                     <b class="margin-right">能力有限公司</b>
                     <b>岗位名称</b>
                     <span class="time">1970.1.1 - To Date</span>
                 </p>
-                <p>从事什么工作，工作内容是什么，达到什么业绩</p>
+                <p>从事什么工作</p>
                 <p>
             </section>
             <!-- 荣誉奖励 -->
@@ -101,6 +101,8 @@
             </section>
         </main>
     </div>
+    <!-- 下载按钮 -->
+    <div class="download-button" onclick="downloadPDF()" href="./pdf/resume.pdf">下载PDF</div>
     <!-- 打印按钮 -->
     <div class="print-button" onclick="printResume()">打印简历</div>
     <script src="./js/fadeIn.js"></script>

@@ -69,6 +69,10 @@
            main .info a {
                margin: 6px 6px 0 0;
            }
+
+           body .print-button {
+               padding: 8px 16px;
+           }
        }
 
        main {
@@ -91,11 +95,15 @@
        /* 名字 */
        .info h1 {
            font-size: 28px;
-           margin: 19px 0 12px 0;
+           margin: 19px 0 17px 0;
        }
 
        .info p {
            margin: 6px 0 0 0;
+       }
+
+       .name span { 
+        
        }
 
        /* 联系方式 */
@@ -107,7 +115,7 @@
        }
 
        .info a:hover {
-           color: #1c1c1c;
+           color: #000000;
        }
 
        /* icon */
@@ -162,13 +170,42 @@
            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
        }
 
+       /* 新增下载按钮样式 */
+       .download-button {
+           position: fixed;
+           bottom: 66px;
+           /* 调整位置在打印按钮上方 */
+           right: 20px;
+           padding: 8px 16px;
+           background-color: #007bff;
+           color: white;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+           font-size: 14px;
+           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+       }
+
+       /* 恢复 print-button 的 hover 样式 */
        .print-button:hover {
+           background-color: #0056b3;
+       }
+
+       /* 恢复 download-button 的 hover 样式 */
+       .download-button:hover {
            background-color: #0056b3;
        }
 
        /* 打印时隐藏打印按钮 */
        @media print {
            .print-button {
+               display: none;
+           }
+       }
+
+       /* 新增：打印时隐藏下载按钮 */
+       @media print {
+           .download-button {
                display: none;
            }
        }
