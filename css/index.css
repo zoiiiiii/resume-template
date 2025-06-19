@@ -1,1 +1,192 @@
-@font-face{font-family:fontello;src:url(../font/fontello.eot?76506711);src:url(../font/fontello.eot?76506711#iefix) format('embedded-opentype'),url(../font/fontello.woff2?76506711) format('woff2'),url(../font/fontello.woff?76506711) format('woff'),url(../font/fontello.resumetf?76506711) format('truetype'),url(../font/fontello.svg?76506711#fontello) format('svg');font-weight:400;font-style:normal}body{height:100%;margin:0;font:16px/22px -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",sans-serif;padding:50px;font-size:13px;background:#f0f0f0;color:#666;display:flex;justify-content:center;align-items:center}.resume{width:21cm;margin:0 auto;box-shadow:0 8px 20px rgba(0,0,0,.09);padding:30px 40px;box-sizing:border-box;background-color:#fff;border-radius:6px;box-sizing:border-box;opacity:0;transition:transform 1s ease,opacity 1s ease;transform:translateY(-16px)}@media(max-width:794px){body{padding:30px}body .resume{padding:30px}}@media(max-width:465px){body{padding:10px}body .resume{padding:23px}.info .link{float:none}.info .name{float:none}main .time{float:none;display:block}}main{clear:both}.info{overflow:hidden}h1{font-size:28px;margin:10px 0}h2{font-size:15px;box-sizing:border-box;margin:18px 0;border-bottom:1px solid #e2e2e2}i{font-family:fontello;font-style:normal;margin:0 5px}.info p{margin:0}.info a{display:block;margin:6px 0;text-decoration:none;color:#666}.info a:hover{color:#000;text-decoration:underline}.name{float:left}.link{float:right}p{margin:9px 8px}.position{margin-left:8px}.time{float:right}.indent{text-indent:10px}.fadeIn{opacity:1;transform:translateY(0)}
+       @font-face {
+           font-family: fontello;
+           src: url(../font/fontello.eot?76506711);
+           src: url(../font/fontello.eot?76506711#iefix) format('embedded-opentype'), url(../font/fontello.woff2?76506711) format('woff2'), url(../font/fontello.woff?76506711) format('woff'), url(../font/fontello.resumetf?76506711) format('truetype'), url(../font/fontello.svg?76506711#fontello) format('svg');
+           font-weight: 400;
+           font-style: normal;
+       }
+
+       body {
+           height: 100%;
+           margin: 0;
+           font: 16px/22px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+           padding: 50px;
+           font-size: 13px;
+           background: #f0f0f0;
+           color: #666;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+
+       .resume {
+           width: 21cm;
+           margin: 0 auto;
+           box-shadow: 0 8px 20px rgba(0, 0, 0, .09);
+           padding: 30px 40px;
+           box-sizing: border-box;
+           background-color: #fff;
+           border-radius: 6px;
+           box-sizing: border-box;
+           opacity: 0;
+           transition: transform 1s ease, opacity 1s ease;
+           transform: translateY(-16px);
+       }
+
+       @media(max-width:794px) {
+           body {
+               padding: 30px;
+           }
+
+           body .resume {
+               padding: 30px;
+           }
+       }
+
+       @media(max-width:465px) {
+           body {
+               padding: 10px;
+           }
+
+           body .resume {
+               padding: 23px;
+           }
+
+           main .info h1 {
+               font-size: 28px;
+               margin: 2px 0 12px 0;
+           }
+
+           main .info a {
+               display: block;
+           }
+
+           main .time {
+               float: none;
+               display: block;
+           }
+
+           main .info a {
+               margin: 6px 6px 0 0;
+           }
+       }
+
+       main {
+           clear: both;
+       }
+
+       .info {
+           overflow: hidden;
+       }
+
+       p {
+           margin: 9px 8px;
+       }
+
+       /* name盒子 */
+       .name {
+           float: left;
+       }
+
+       /* 名字 */
+       .info h1 {
+           font-size: 28px;
+           margin: 19px 0 12px 0;
+       }
+
+       .info p {
+           margin: 6px 0 0 0;
+       }
+
+       /* 联系方式 */
+       .info a {
+           display: inline-block;
+           margin: 6px 15px 0 0;
+           text-decoration: none;
+           color: #666;
+       }
+
+       .info a:hover {
+           color: #1c1c1c;
+       }
+
+       /* icon */
+       i {
+           font-family: fontello;
+           font-style: normal;
+           margin-right: 5px;
+       }
+
+       /* 每一类标题 */
+       h2 {
+           font-size: 15px;
+           box-sizing: border-box;
+           margin: 18px 0;
+           border-bottom: 1px solid #e2e2e2;
+       }
+
+       .margin-right {
+           margin-right: 18px;
+       }
+
+       /* 时间 */
+       .time {
+           float: right;
+       }
+
+       /* 文本水平居中 */
+       .indent {
+           text-indent: 10px;
+       }
+
+       /* 证件照 */
+       .idphoto {
+           height: 143px;
+           float: right;
+       }
+
+       /* 打印按钮样式 */
+       .print-button {
+           position: fixed;
+           /* 修改为 fixed 定位 */
+           bottom: 20px;
+           /* 固定在右下角 */
+           right: 20px;
+           padding: 8px 16px;
+           background-color: #007bff;
+           color: white;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+           font-size: 14px;
+           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+       }
+
+       .print-button:hover {
+           background-color: #0056b3;
+       }
+
+       /* 打印时隐藏打印按钮 */
+       @media print {
+           .print-button {
+               display: none;
+           }
+       }
+
+       /* 动画效果 */
+
+       .fadeIn {
+           animation: fadeIn 1s ease forwards;
+       }
+
+       @keyframes fadeIn {
+           from {
+               opacity: 0;
+               transform: translateY(-20px);
+           }
+
+           to {
+               opacity: 1;
+               transform: translateY(0);
+           }
+       }

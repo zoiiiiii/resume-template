@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cn">
 
 <head>
     <meta charset="UTF-8">
@@ -7,95 +7,104 @@
     <title>resume-template</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <!-- <script>
-        var password = "";
-        password = prompt("Please enter the password:");
-        while (password != 11) {
-            alert("The secret code is incorrect, terminate the transaction");
-        }
-    </script> -->
+    <!-- 是否开启简易密码，密码为0 -->
+    <!-- <scrip src="./js/password.js"> -->
+        </script>
 </head>
 
 <body>
     <div class="resume">
         <main>
-            <div class="info">
+            <header class="info">
                 <div class="name">
-                    <h1>Name</h1>
-                    <h3>Objective: xxx</h3>
-                    <p>Job address: xxx</p>
+                    <h1>周依然</h1>
+                    <span>女</span> ｜ <span>18岁</span> ｜ <span>本科</span>
+                    <p>已离职 ｜ 工作年限：8年</p>
+                    <a href="tel:18900000000"><i></i>189-0000-0000</a>
+                    <a href="mailto:izoii@qq.com"><i></i>izoii@qq.com</a>
                 </div>
-                <div class="link">
-                    <a href="tel:18950200096"><i></i>189-0000-0000</a>
-                    <a href="mailto:i@kzero.vip"><i></i>i@kzero.vip</a>
-                    <a href="https://github.com/zoiiiiii"><i></i>zoiiiiii(6个i)</a>
-                    <a href="https://kzero.vip"><i></i>kzero.vip</a>
-                </div>
-            </div>
-            <div>
-                <h2><i></i>Educational</h2>
-                <p>2016.9-2020.7 University at home xx professional (Undergraduate) </p>
-            </div>
-            <div>
-                <h2><i></i>Development Skills</h2>
-                <p>Familiar with HTML(5)、CSS(3)、JS(ES6)</p>
-                <p>Familiar with Ajax、JQuery、Bootstrap</p>
-                <p>Familiar with Vue、React、Angular</p>
-            </div>
-            <div>
-                <h2><i></i>Work Experience</h2>
-                <p><b>What company</b>
-                    <b class="position">what position</b>
-                    <span class="time">1970.1.1-To Date</span>
-                </p>
-                <p>what kind of job</p>
+                <img src="./img/idphoto.jpg" alt="" class="idphoto">
+            </header>
+            <!-- 教育经历 -->
+            <section>
+                <h2><i></i>教育经历</h2>
                 <p>
-                    <b>What company</b>
-                    <b class="position">what position</b>
-                    <span class="time">1970.1.1-2020.11.08</span>
+                    <span class="margin-right">学校名称</span>
+                    <span>专业名称（本科）</span>
+                    <span class="time">2020 - 2024</span>
                 </p>
-                <p>what kind of job</p>
-            </div>
-            <div>
-                <h2><i></i>Project Experience</h2>
+            </section>
+            <!-- 会的技能 -->
+            <section>
+                <h2><i></i>开发技能</h2>
+                <p>熟悉 HTML(5)、CSS(3)、JS(ES6)</p>
+                <p>熟悉 Vue、React、Angular</p>
+                <p>熟悉 Java、Python、C++</p>
+            </section>
+            <!-- 其他技能 -->
+            <section>
+                <h2><i></i>其他技能</h2>
+                <p>熟练使用 Office、XMind、PS、PR 等常用操作...</p>
+            </section>
+            <!-- 项目经历 -->
+            <section>
+                <h2><i></i>项目经历</h2>
                 <p>
-                    <b>What project</b>
-                    <span class="time">1970.1.1-To Date</span>
+                    <b class="margin-right">项目名称</b>
+                    <b>岗位名称</b>
+                    <span class="time">1970.1.1 - To Date</span>
                 </p>
-                <p>what position, what effect has been achieved, what have been learned</p>
+                <p>项目的内容</p>
                 <p>
-                    <b>What project</b>
-                    <span class="time">1970.1.1-2020.11.08</span>
+                    <b class="margin-right">项目名称</b>
+                    <b>岗位名称</b>
+                    <span class="time">1970.1.1 - To Date</span>
                 </p>
-                <p>what position, what effect has been achieved, what have been learned</p>
-            </div>
-            <div>
-                <h2><i></i>Awards</h2>
-                <p>Get What scholarship、What scholarship</p>
-                <p>Get “What”、“What”、“What” Honorary title</p>
-                <p>Get “What item” Won the outstanding member (What did you learn)</p>
-            </div>
-            <div>
-                <h2><i></i>School Experience</h2>
-                <p>What association What department What position (Work content)</p>
-                <p>What association What department What position (Work content)</p>
-                <p>What association What department What position (Work content)</p>
-            </div>
-            <div>
-                <h2><i></i>Certificate</h2>
-                <p>What certificate、What language certificate</p>
-            </div>
-            <div>
-                <h2><i></i>Other Skills</h2>
-                <p>Proficient in Office、XMind、PS、LR、PR...</p>
-            </div>
-            <div>
-                <h2><i></i>Self-Evaluation</h2>
-                <p>Serious attitude, good communication skills and learning ability...</p>
-            </div>
+                <p>项目的内容</p>
+            </section>
+            <!-- 工作经历 -->
+            <section>
+                <h2><i></i>工作经历</h2>
+                <p>
+                    <b class="margin-right">能力有限公司</b>
+                    <b>岗位名称</b>
+                    <span class="time">1970.1.1 - To Date</span>
+                </p>
+                <p>从事什么工作，工作内容是什么，达到什么业绩</p>
+                <p>
+                    <b class="margin-right">能力有限公司</b>
+                    <b>岗位名称</b>
+                    <span class="time">1970.1.1 - To Date</span>
+                </p>
+                <p>从事什么工作，工作内容是什么，达到什么业绩</p>
+                <p>
+            </section>
+            <!-- 荣誉奖励 -->
+            <section>
+                <h2><i></i>荣誉奖项</h2>
+                <p>在校获得 一等奖学金 “中国好同学” 荣誉称号</p>
+            </section>
+            <!-- 在校经历 -->
+            <section>
+                <h2><i></i>在校经历</h2>
+                <p>什么部门 什么职位 (从事什么和什么工作)</p>
+            </section>
+            <!-- 持有证书 -->
+            <section>
+                <h2><i></i>其他证书</h2>
+                <p>NCRE二级（C语言）、CET4</p>
+            </section>
+            <!-- 自我评价 -->
+            <section>
+                <h2><i></i>自我评价</h2>
+                <p>态度认真、具有良好的的沟通能力和学习能力...</p>
+            </section>
         </main>
     </div>
-    <script src="./js/index.js"></script>
+    <!-- 打印按钮 -->
+    <div class="print-button" onclick="printResume()">打印简历</div>
+    <script src="./js/fadeIn.js"></script>
+    <script src="./js/print_buttom.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,3 @@
-# resume-template
+[在线预览](https://zoiiiiii.github.io/resume-template-cn)
 
-[Online preview](https://zoiiiiii.github.io/resume-template)
-
-Password verification can be turned on
+可开启密码验证
