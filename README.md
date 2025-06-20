@@ -8,4 +8,7 @@
 
 手机端效果：
 
-<img src="https://github.com/user-attachments/assets/306f829c-b2fd-415f-90c1-1235d3441c4c](https://github.com/user-attachments/assets/970422dd-406f-4192-8985-e5ae9d6a4aaf" width="300">
+<img src="https://github.com/user-attachments/assets/14a78358-8d89-4d06-be9f-769249eaa016" width="300">
+
+
+
