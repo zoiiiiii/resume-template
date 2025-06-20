@@ -1,3 +1,3 @@
-[在线预览](https://zoiiiiii.github.io/resume-template-cn)
+[在线预览](https://resume-template-kappa.vercel.app)
 
 可开启密码验证
