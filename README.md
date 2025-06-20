@@ -1,6 +1,6 @@
 [在线预览](https://resume-template-kappa.vercel.app)
 
-（注释解除，可开启输入密码查看）
+注释解除，可开启输入密码查看
 
 电脑端效果：
 
