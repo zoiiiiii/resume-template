@@ -1,4 +1,4 @@
-[在线预览](https://resume-template-kappa.vercel.app)
+[在线预览](https://zoiii-resume-temp.netlify.app)
 
 注释解除，可开启输入密码查看
 
